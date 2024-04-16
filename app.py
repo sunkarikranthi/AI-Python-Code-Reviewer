@@ -3,7 +3,7 @@ from openai import OpenAI
 
 
 # Setting up OpenAI and key
-OPENAI_KEY = st.secrets["api_key"])
+OPENAI_KEY = st.secrets["api_key"]
 client = OpenAI(api_key=OPENAI_KEY)
 
 # title for the app
