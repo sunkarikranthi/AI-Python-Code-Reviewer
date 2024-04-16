@@ -3,7 +3,7 @@ from openai import OpenAI
 
 
 # Setting up OpenAI and key
-f = open('.openai_api_key.txt')
+f = open('openai_api_key.txt')
 OPENAI_KEY = f.read()
 client = OpenAI(api_key=OPENAI_KEY)
 
